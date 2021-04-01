@@ -8,7 +8,7 @@
 }
 
 .post{
-  margin-top: 3rem;
+  margin: 5rem 0 5rem;
 
   h1{
     font-size: 2.5rem;
@@ -16,8 +16,19 @@
     color: var(--gray-100);
   }
 
-}
 
+
+  padding-bottom: 2rem;
+  border-bottom:  1px solid rgba(215,215,215,0.5);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+
+}
+.editedWhen{
+  margin-top: 1rem;
+  display: block;
+  color: var(--gray-600)
+}
 .iconsContainer{
   margin-top: 1.5rem;
 
@@ -33,7 +44,9 @@
 }
 
 .content{
-  margin-top: 4rem;
+  margin: 4rem 0 4rem;
+
+
   h2{
     margin-bottom: 2rem;
     font-weight: 700;
@@ -50,4 +63,46 @@
   li{
     margin-bottom: 1rem;
   }
+
+
+}
+.parentPosts{
+  margin-bottom: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  div{
+    display: flex;
+    flex-direction: column;
+
+    span{
+      color: var(--gray-100);
+    }
+
+    a{
+      color: var(--pink-100);
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+  }
+}
+
+.previewButton{
+
+    margin: 2rem 0 2rem;
+    width: 100%;
+    background: var(--pink-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    border-radius: 1.5rem;
+
+    a{
+      font-size: 1rem;
+      font-weight: 700;
+    }
 }
